@@ -1,6 +1,4 @@
 
-#include <stddef.h>
-
 #include "raylib.h"
 
 int main(void) {
@@ -13,7 +11,6 @@ int main(void) {
 		EndDrawing();
 	}
 
-	UnloadFont(font);
 	CloseWindow();
 
 	return 0;
